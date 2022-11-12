@@ -1,0 +1,16 @@
+.slider-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.slick-prev:before {
+    content: '←';
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(45, 23, 208);
+    
+}
